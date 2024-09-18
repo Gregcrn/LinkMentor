@@ -68,7 +68,7 @@ const Hero = () => {
             />
           </a>
         <div className="mt-8 flex flex-col items-center">
-          <p className="mb-4 text-sm sm:text-base md:text-base lg:text-xl xl:text-2xl font-medium text-gray-600 dark:text-gray-300">Des mentors sélectionnés pour vous</p>
+          <p className="mb-7 text-sm sm:text-base md:text-base lg:text-xl xl:text-2xl font-medium text-gray-600 dark:text-gray-300">Des mentors sélectionnés pour vous</p>
           <AnimatedTooltipPreview />
         </div>
         </div>

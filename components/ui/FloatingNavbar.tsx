@@ -12,8 +12,7 @@ import { cn } from "@/lib/utils";
 import { FaUserPlus, FaUsers } from "react-icons/fa";
 import { Button } from "./MovingBorders";
 import { NavBarBtn } from "./NavBarBtn";
-
-
+import { Logo } from "./Logo";
 
 export const FloatingNav = ({
   navItems,
@@ -77,6 +76,7 @@ export const FloatingNav = ({
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}
       >
+        <Logo className="mr-auto" /> {/* Ajoutez cette ligne */}
         {navItems.map((navItem: any, idx: number) => (
           <Link
             key={`link=${idx}`}

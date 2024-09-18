@@ -25,7 +25,7 @@ const Footer = () => {
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Contactez-nous , notre équipe se fera un plaisir de vous répondre pour échanger.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:support@appifylt.info">
           <MagicButton
             title="Contactez-nous"
             icon={<FaLocationArrow />}
